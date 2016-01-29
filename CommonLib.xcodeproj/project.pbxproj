@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0732D487F090D7BBB316CD51 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A6A7478BC042920296DD03 /* libPods.a */; };
-		E537E1F51C5B49780087BA8D /* SDmain.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F41C5B49780087BA8D /* SDmain.m */; };
+		E537E1F51C5B49780087BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F41C5B49780087BA8D /* main.m */; };
 		E537E1F81C5B49780087BA8D /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F71C5B49780087BA8D /* SDAppDelegate.m */; };
 		E537E1FB1C5B49780087BA8D /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1FA1C5B49780087BA8D /* SDViewController.m */; };
 		E537E1FE1C5B49780087BA8D /* SDMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E1FC1C5B49780087BA8D /* SDMain.storyboard */; };
@@ -22,7 +22,7 @@
 		72A6A7478BC042920296DD03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF7D73925B890735ABA1737 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E537E1F01C5B49780087BA8D /* CommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E537E1F41C5B49780087BA8D /* SDmain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDmain.m; sourceTree = "<group>"; };
+		E537E1F41C5B49780087BA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E537E1F61C5B49780087BA8D /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
 		E537E1F71C5B49780087BA8D /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
 		E537E1F91C5B49780087BA8D /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		E537E1F31C5B49780087BA8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E537E1F41C5B49780087BA8D /* SDmain.m */,
+				E537E1F41C5B49780087BA8D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 				E537E2C01C5B51C50087BA8D /* SDRequestManager.m in Sources */,
 				E537E1FB1C5B49780087BA8D /* SDViewController.m in Sources */,
 				E537E1F81C5B49780087BA8D /* SDAppDelegate.m in Sources */,
-				E537E1F51C5B49780087BA8D /* SDmain.m in Sources */,
+				E537E1F51C5B49780087BA8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
