@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0732D487F090D7BBB316CD51 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A6A7478BC042920296DD03 /* libPods.a */; };
-		E537E1F51C5B49780087BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F41C5B49780087BA8D /* main.m */; };
-		E537E1F81C5B49780087BA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F71C5B49780087BA8D /* AppDelegate.m */; };
-		E537E1FB1C5B49780087BA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1FA1C5B49780087BA8D /* ViewController.m */; };
-		E537E1FE1C5B49780087BA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E1FC1C5B49780087BA8D /* Main.storyboard */; };
+		E537E1F51C5B49780087BA8D /* SDmain.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F41C5B49780087BA8D /* SDmain.m */; };
+		E537E1F81C5B49780087BA8D /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1F71C5B49780087BA8D /* SDAppDelegate.m */; };
+		E537E1FB1C5B49780087BA8D /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E1FA1C5B49780087BA8D /* SDViewController.m */; };
+		E537E1FE1C5B49780087BA8D /* SDMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E1FC1C5B49780087BA8D /* SDMain.storyboard */; };
 		E537E2001C5B49780087BA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E537E1FF1C5B49780087BA8D /* Assets.xcassets */; };
-		E537E2031C5B49780087BA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E2011C5B49780087BA8D /* LaunchScreen.storyboard */; };
+		E537E2031C5B49780087BA8D /* SDLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E2011C5B49780087BA8D /* SDLaunchScreen.storyboard */; };
+		E537E2C01C5B51C50087BA8D /* SDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E2BF1C5B51C50087BA8D /* SDRequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,15 +22,17 @@
 		72A6A7478BC042920296DD03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF7D73925B890735ABA1737 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E537E1F01C5B49780087BA8D /* CommonLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E537E1F41C5B49780087BA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E537E1F61C5B49780087BA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E537E1F71C5B49780087BA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E537E1F91C5B49780087BA8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E537E1FA1C5B49780087BA8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E537E1FD1C5B49780087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E537E1F41C5B49780087BA8D /* SDmain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDmain.m; sourceTree = "<group>"; };
+		E537E1F61C5B49780087BA8D /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
+		E537E1F71C5B49780087BA8D /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
+		E537E1F91C5B49780087BA8D /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
+		E537E1FA1C5B49780087BA8D /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
+		E537E1FD1C5B49780087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SDMain.storyboard; sourceTree = "<group>"; };
 		E537E1FF1C5B49780087BA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E537E2021C5B49780087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E537E2041C5B49780087BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E537E2021C5B49780087BA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SDLaunchScreen.storyboard; sourceTree = "<group>"; };
+		E537E2041C5B49780087BA8D /* SDInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SDInfo.plist; sourceTree = "<group>"; };
+		E537E2BE1C5B51C50087BA8D /* SDRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRequestManager.h; sourceTree = "<group>"; };
+		E537E2BF1C5B51C50087BA8D /* SDRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,14 +77,15 @@
 		E537E1F21C5B49780087BA8D /* CommonLib */ = {
 			isa = PBXGroup;
 			children = (
-				E537E1F61C5B49780087BA8D /* AppDelegate.h */,
-				E537E1F71C5B49780087BA8D /* AppDelegate.m */,
-				E537E1F91C5B49780087BA8D /* ViewController.h */,
-				E537E1FA1C5B49780087BA8D /* ViewController.m */,
-				E537E1FC1C5B49780087BA8D /* Main.storyboard */,
+				E537E2BD1C5B51A20087BA8D /* Utils */,
+				E537E1F61C5B49780087BA8D /* SDAppDelegate.h */,
+				E537E1F71C5B49780087BA8D /* SDAppDelegate.m */,
+				E537E1F91C5B49780087BA8D /* SDViewController.h */,
+				E537E1FA1C5B49780087BA8D /* SDViewController.m */,
+				E537E1FC1C5B49780087BA8D /* SDMain.storyboard */,
 				E537E1FF1C5B49780087BA8D /* Assets.xcassets */,
-				E537E2011C5B49780087BA8D /* LaunchScreen.storyboard */,
-				E537E2041C5B49780087BA8D /* Info.plist */,
+				E537E2011C5B49780087BA8D /* SDLaunchScreen.storyboard */,
+				E537E2041C5B49780087BA8D /* SDInfo.plist */,
 				E537E1F31C5B49780087BA8D /* Supporting Files */,
 			);
 			path = CommonLib;
@@ -90,9 +94,18 @@
 		E537E1F31C5B49780087BA8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E537E1F41C5B49780087BA8D /* main.m */,
+				E537E1F41C5B49780087BA8D /* SDmain.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E537E2BD1C5B51A20087BA8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E537E2BE1C5B51C50087BA8D /* SDRequestManager.h */,
+				E537E2BF1C5B51C50087BA8D /* SDRequestManager.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		EA7C05C68B65616FBDE8AB92 /* Frameworks */ = {
@@ -163,9 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E537E2031C5B49780087BA8D /* LaunchScreen.storyboard in Resources */,
+				E537E2031C5B49780087BA8D /* SDLaunchScreen.storyboard in Resources */,
 				E537E2001C5B49780087BA8D /* Assets.xcassets in Resources */,
-				E537E1FE1C5B49780087BA8D /* Main.storyboard in Resources */,
+				E537E1FE1C5B49780087BA8D /* SDMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,29 +237,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E537E1FB1C5B49780087BA8D /* ViewController.m in Sources */,
-				E537E1F81C5B49780087BA8D /* AppDelegate.m in Sources */,
-				E537E1F51C5B49780087BA8D /* main.m in Sources */,
+				E537E2C01C5B51C50087BA8D /* SDRequestManager.m in Sources */,
+				E537E1FB1C5B49780087BA8D /* SDViewController.m in Sources */,
+				E537E1F81C5B49780087BA8D /* SDAppDelegate.m in Sources */,
+				E537E1F51C5B49780087BA8D /* SDmain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E537E1FC1C5B49780087BA8D /* Main.storyboard */ = {
+		E537E1FC1C5B49780087BA8D /* SDMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E537E1FD1C5B49780087BA8D /* Base */,
 			);
-			name = Main.storyboard;
+			name = SDMain.storyboard;
 			sourceTree = "<group>";
 		};
-		E537E2011C5B49780087BA8D /* LaunchScreen.storyboard */ = {
+		E537E2011C5B49780087BA8D /* SDLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E537E2021C5B49780087BA8D /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = SDLaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,8 +350,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFF7D73925B890735ABA1737 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CommonLib/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = SDAppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CommonLib/SDInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.CommonLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,8 +363,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 006F19A802D7DA10F4134531 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CommonLib/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = SDAppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CommonLib/SDInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.CommonLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -6,13 +6,13 @@
 //  Copyright © 2016年 yurongde. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SDAppDelegate.H"
 
-@interface AppDelegate ()
+@interface SDAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SDAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
