@@ -15,6 +15,7 @@
 		E537E2001C5B49780087BA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E537E1FF1C5B49780087BA8D /* Assets.xcassets */; };
 		E537E2031C5B49780087BA8D /* SDLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E2011C5B49780087BA8D /* SDLaunchScreen.storyboard */; };
 		E537E2C01C5B51C50087BA8D /* SDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E2BF1C5B51C50087BA8D /* SDRequestManager.m */; };
+		E569B55C1C5C5C17002C0D20 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E569B55B1C5C5C17002C0D20 /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E537E57E1C5C4E190087BA8D /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		E537E5801C5C54060087BA8D /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		E569B4441C5C5A48002C0D20 /* Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Names.h; sourceTree = "<group>"; };
+		E569B55B1C5C5C17002C0D20 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E569B55C1C5C5C17002C0D20 /* AddressBook.framework in Frameworks */,
 				0732D487F090D7BBB316CD51 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +128,7 @@
 		EA7C05C68B65616FBDE8AB92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E569B55B1C5C5C17002C0D20 /* AddressBook.framework */,
 				72A6A7478BC042920296DD03 /* libPods.a */,
 			);
 			name = Frameworks;
