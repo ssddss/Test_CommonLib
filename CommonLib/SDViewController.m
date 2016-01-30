@@ -7,7 +7,7 @@
 //
 
 #import "SDViewController.h"
-
+#import "Names.h"
 @interface SDViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",kName);
 }
 
 - (void)didReceiveMemoryWarning {

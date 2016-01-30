@@ -35,6 +35,7 @@
 		E537E2BF1C5B51C50087BA8D /* SDRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRequestManager.m; sourceTree = "<group>"; };
 		E537E57E1C5C4E190087BA8D /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		E537E5801C5C54060087BA8D /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		E569B4441C5C5A48002C0D20 /* Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Names.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 			children = (
 				E537E5801C5C54060087BA8D /* Color.h */,
 				E537E57E1C5C4E190087BA8D /* Header.h */,
+				E569B4441C5C5A48002C0D20 /* Names.h */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
