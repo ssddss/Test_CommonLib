@@ -38,6 +38,7 @@
 		E537E5801C5C54060087BA8D /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		E569B4441C5C5A48002C0D20 /* Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Names.h; sourceTree = "<group>"; };
 		E569B55B1C5C5C17002C0D20 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E569B60F1C5DF9E3002C0D20 /* URLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		E537E57D1C5C4E190087BA8D /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				E569B60F1C5DF9E3002C0D20 /* URLs.h */,
 				E537E5801C5C54060087BA8D /* Color.h */,
 				E537E57E1C5C4E190087BA8D /* Header.h */,
 				E569B4441C5C5A48002C0D20 /* Names.h */,
